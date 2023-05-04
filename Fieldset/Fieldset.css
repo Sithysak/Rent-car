@@ -1,0 +1,45 @@
+body{
+    margin-left: 100px;
+}
+fieldset {
+    position: relative;
+    padding-left: 50px;
+    width: 50%;
+    align-items: center;
+    background-color: white;
+    
+  }
+.box{
+    display: grid;
+    margin-top: 60px;
+}
+legend {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 0;
+    top: 10%;
+    transform: translateY(50%);
+    background-color: Blue;
+    transform: translateX(-0.4rem);
+    font-size: 1.3rem;
+    outline: none;
+ }
+ legend:after {
+    content: "";
+    height: 0;
+    width:0;
+    outline:none;
+    background-color: transparent;
+    border-top: 0.0rem solid transparent;
+    border-right:  0.35rem solid blue;
+    border-bottom: 0.45rem solid transparent;
+    border-left: 0.0rem solid transparent;
+    position:absolute;
+    left:-0.075rem;
+    bottom: -0.45rem;
+}
+
+label, input{
+    margin-top: ;
+}

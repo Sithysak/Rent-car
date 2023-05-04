@@ -1,0 +1,263 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+.Register{
+    display: flex; 
+    width: 100%;
+}
+.Callus{
+    background-color: #526AF2;
+    width:35%;
+}
+.call{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 10px;
+}
+.call a {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    
+}
+.Icon_and_search{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 65%;
+}
+.Icon{
+    width:45%;
+    justify-content: start;
+}
+.icon{
+    list-style:none;
+    display: flex;
+}
+.icon i{
+    margin: 8px;
+    margin-top: -5px;
+    text-decoration: none;
+}
+.Search{
+    justify-content: end;
+}
+.search{
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+.search a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.Logo_and_Function{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    width: 40%;
+}
+.logo ul{
+    list-style:none;
+}
+.logo a{
+    font-size: 30px;  
+    color: black;
+    padding-left: 400px;
+}
+.function ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.function ul>li{
+    margin: 20px;
+}
+.function a{
+    text-decoration: none;
+    color: black;
+}
+.Cheapcar{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.text{
+    width: 60%;
+    margin: 9%;
+    margin-left: 300px;
+}
+.Uppercase{
+    font-size: 35px;
+    list-style: none;
+}
+.Uppercase li a{
+    text-decoration: none;
+    color: white;
+}
+.Offer{
+    list-style:none;
+}
+.Offer li a{
+    text-decoration: none;
+    color: grey;
+}
+#starting{
+    color: blue;
+}
+button{
+    background-color: white;
+    width: 125px;
+    height: 50px;
+    border-radius: 10px;
+}
+#b1{
+    background-color: #526AF2;
+    color: white;
+}
+.fieldset{
+    width: 60%;
+    margin-top: 50px;
+    /* justify-content: flex-start; */
+    
+   
+}
+fieldset {
+    position: relative;
+    padding-left: 50px;
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 3px 1px rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+  }
+
+.title {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 0;
+    top: 5%;
+    transform: translateY(50%);
+    background-color: #526AF2;
+    transform: translateX(-1.1rem);
+    outline: none;
+    width: 400px;
+    height: 20px;
+    padding-top:-40px;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+.title span{
+    margin-left: 30px;
+    margin-top: -100px;
+    font-weight:bold;
+    
+}
+
+.title:after {
+    content: "";
+    height: 0;
+    width:0;
+    outline:none;
+    background-color: transparent;
+    border-top: 0.0rem solid transparent;
+    border-right:  1rem solid #526AF2;
+    border-bottom: 1rem solid transparent;
+    border-left: 1rem solid transparent;
+    position:absolute;
+    left:-1rem;
+    bottom: -1rem;
+}.box{
+    display: grid;
+    margin-top: 60px;
+    margin-right: 20px;
+    font-weight: bold;
+    
+}
+label, input{
+    margin:5px;
+}
+input{
+    height: 40px;
+    border: 0.1%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: 1px solid gray;
+    outline-offset: -1px;
+}
+.pick_and_drop{
+    display: flex;
+    
+}
+.pick_and_drop input{
+    width: 150px;
+}
+.pick{
+    display: grid;
+}
+.drop{
+    display: grid;
+    margin-left: 30px;
+}
+.checkbox{
+    display: flex;
+    opacity: 10;
+}
+.checkbox input{
+    width: 10px;
+    height: 10px;
+    opacity: 10;
+}
+.checkbox label{
+    opacity: 50%;
+    margin-top: 6px;
+    font-size: 12px;
+}
+hr{
+    font-size: 5px;
+}
+.Check_and_search{
+    display: flex;
+}
+.Threecheckbox {
+    display: grid;
+    opacity: 50%;
+    font-size: 12px;
+}
+.Threecheckbox label{
+    margin-bottom: -30px;
+}
+
+.Threecheckbox input{
+    width: 10px;
+    height: 10px;
+}
+.search{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.search button{
+    background-color: #526AF2;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
